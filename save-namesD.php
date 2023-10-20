@@ -41,6 +41,16 @@ if (!$result) {
         <input type="text" id="name" name="pangalan" required="">
         <label for="pangalan"> ILAGAY ANG PANGALAN </label>
     </div>
+
+    <div class="user-box">
+      <label for="selectName">Pumili ng Pangalan ng Guro:</label>
+      <select id="selectName" name="selectedName">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+        <!-- Add more options as needed -->
+      </select>
+    </div>
   
     <button type="submit" name="submit" onclick="hideLoginBox()" value="submit">
         Submit
